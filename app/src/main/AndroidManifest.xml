@@ -22,6 +22,14 @@
         <activity
             android:name=".AddPlace"
             android:label="@string/title_activity_add_place"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditPlace"
+            android:label="@string/title_activity_edit_place"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisplayDetailPlace"
+            android:label="@string/title_activity_display_detail_place"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

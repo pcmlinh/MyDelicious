@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".AddPlace"
+    tools:context=".EditPlace"
     tools:showIn="@layout/activity_add_place">
 
     <Button
@@ -15,7 +15,7 @@
         android:layout_marginBottom="38dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="62dp"
-        android:text="Add"
+        android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btCancel"
         app:layout_constraintHorizontal_bias="0.0"
